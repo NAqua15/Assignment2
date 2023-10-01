@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyPortfolio</title>
+    <link   href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"  >
+    <link rel="stylesheet" href="styles.css">
+     
+
+</head>
+
+<body>
+
+ 
+  
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+   
+      <a class="navbar-brand" href="index.html">MyPortfolio</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+              <li class="nav-item active">
+                  <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="project.html">Projects</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                      data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      More
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">About</a>
+                      <a class="dropdown-item" href="#">Services</a>
+                  </div>
+              </li>
+          </ul>
+      </div>
+  </nav>
+
+ 
+  <div id="portfolioCarousel" class="carousel slide mt-4" data-ride="carousel">
+      <div class="carousel-inner">
+          <div class="carousel-item active">
+              <img src="person.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                  <h5>Mark Jackson</h5>
+                  <p>Follow my path if you want feel the money you are dreaming</p>
+              </div>
+          </div>
+        
+      </div>
+  </div>
+
+  
+  <div class="container mt-5">
+       
+      <div class="row">
+        
+          <div class="col-md-4">
+              <div class="card">
+                  <img src="money.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title">About Money!</h5>
+                      <p class="card-text">Money is a medium for exchanging goods and services, acting as a consistent measure of value.</p>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                      <li class="list-group-item">Medium of exchange.</li>
+                      <li class="list-group-item">Store of value.</li>
+                      <li class="list-group-item">Unit of account.</li>
+                  </ul>
+              </div>
+          </div>
+           
+      </div>
+
+      
+      <form class="mt-4">
+          <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Enter name">
+          </div>
+          <div class="form-group">
+              <label for="message">Message</label>
+              <textarea class="form-control" id="message" rows="3"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+  </div>
+  &copy; 2023 Abror Davranov
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.6.0/js/bootstrap.min.js"></script>
+</body>
+
+
+</html>
